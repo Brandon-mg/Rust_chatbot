@@ -1,3 +1,4 @@
+use cfg_if::cfg_if;
 #[cfg(feature = "ssr")]
 #[actix_web::main]
 async fn main() -> std::io::Result<()> {
